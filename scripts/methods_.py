@@ -18,11 +18,25 @@ def move_images(image_types):
         for image in image_types:
             if filename.lower().endswith(image):
                 word = dir+filename
-                saved_files.append(word) 
+                saved_files.append(word)
     clean_copy()
 
     for cur_dir in saved_files:
         shutil.move(cur_dir, dest_dir)
+
+import openai
+
+openai.api_key = "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"
+
+def openAiReponse(prompt):
+  response = openai.Completion.create(
+    engine = "text-davinci-003",
+    prompt=prompt,
+    temperature=0.4,
+    max_tokens=64
+  )
+  return response.choices[0].text
+
 
 def clean_copy():
     for d_files in dest_files:
