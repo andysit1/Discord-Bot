@@ -151,7 +151,7 @@ async def on_message(message):
             await self.send(response)
 
 
-bot.run('OTEzMzE2NDk1MzczNzk1MzQ5.GWW7cC.UhPjCYpu4fVHIuKYROjeCPIXgziTAXjY4fgyOA')
+bot.run('secrect key')
 
 
 

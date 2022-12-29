@@ -26,7 +26,7 @@ def move_images(image_types):
 
 import openai
 
-openai.api_key = "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"
+openai.api_key = "secrect key'"
 
 def openAiReponse(prompt):
   response = openai.Completion.create(
