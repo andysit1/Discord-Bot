@@ -10,5 +10,4 @@ In the future, I want to make a nearby function to find resturants, cafes, or wh
 ## Screenshots
 
 ![Mindapp Screenshot](https://github.com/the-demonKid/Discord-Bot/blob/master/screenshots/screenshot1.PNG)
-![Mindapp Screenshot](https://github.com/the-demonKid/Discord-Bot/blob/master/screenshots/screenshot3.PNG)
 ![Mindapp Screenshot](https://github.com/the-demonKid/Discord-Bot/blob/master/screenshots/screenshot2.PNG)
